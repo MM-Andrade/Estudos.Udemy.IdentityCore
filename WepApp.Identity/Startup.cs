@@ -68,7 +68,7 @@ namespace WepApp.Identity
             //services.AddAuthentication("cookies")
             //  .AddCookie("cookies", options => options.LoginPath = "/Home/Login");
 
-            var connectionstring = @"Integrated Security = SSPI; Persist Security Info = False; Initial Catalog = IdentityCurso; Data Source = SEUHOST\SQLEXPRESS";
+            var connectionstring = @"Integrated Security = SSPI; Persist Security Info = False; Initial Catalog = IdentityCurso; Data Source = L-E4590\SQLEXPRESS";
 
             var migrationAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
 
